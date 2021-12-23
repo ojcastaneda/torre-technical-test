@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cd frontend && npm install && npm run build && cd .. && node ./bin/www",
+    "preinstall": "cd frontend && npm install && cd ..",
+    "postinstall": "cd frontend && npm run build && cd ..",
+    "start": "node ./bin/www",
     "dev": "nodemon ./bin/www"
   },
   "dependencies": {
