@@ -1,0 +1,31 @@
+.profile-container {
+	background-color: #383b40;
+	color: #eaeacc;
+	box-shadow: 0 0 10px #000;
+	display: 'flex';
+	justify-content: 'center';
+	align-items: 'center';
+	height: '100%';
+}
+
+.profile-image {
+	max-width: 100%;
+	max-height: 20vh;
+}
+
+.detailed-skill-selected {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+}
+
+.detailed-skill-selected-background {
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+}

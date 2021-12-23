@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-color: rgb(0, 0, 0, 0.93);
+	color: #eaeacc;
+	height: 100%;
+}
+
+#root {
+	height: 100%;
+	font-family: 'Mulish', 'Helvetica', 'Arial', sans-serif;
+}
+
+.secondary-font-color {
+	color: #eaeacca9;
+}
+
+.styleless-button {
+	all: unset;
+}
+
+.loading-icon {
+	border: 1vh solid #383b40;
+	border-top: 1vh solid #eaeacc;
+	border-left: 1vh solid #eaeacc;
+	border-radius: 50%;
+	width: 6vh;
+	height: 6vh;
+	animation: spin 2.5s linear infinite;
+	display: table;
+	margin: 0 auto;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
